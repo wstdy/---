@@ -1,0 +1,1 @@
+"D:\soft\微信web开发者工具\cli.bat" cloud functions deploy --e wstdy-xhfs4 --n quickstartFunctions --r --project "D:\study\小程序" --report_first --report
