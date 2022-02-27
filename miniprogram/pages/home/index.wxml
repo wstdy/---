@@ -1,7 +1,7 @@
 <view class="container">
   <view id="code">
     <view color="#FF0000">
-      <view wx:for="{{info}}" class="say">{{item.title}}</view>
+      <view wx:key="key" wx:for="{{info}}" class="say">{{item.title}}</view>
     </view>
   </view>
 </view>
