@@ -7,7 +7,7 @@
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "一封信",
+    "navigationBarTitleText": "周佳佳",
     "navigationBarTextStyle": "black",
     "pageOrientation": "auto"
   },
@@ -23,7 +23,7 @@
       },
       {
         "pagePath": "pages/index/index",
-        "text": "周佳佳"
+        "text": "关于"
       }
     ]
   },
