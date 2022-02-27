@@ -1,7 +1,13 @@
 Page({
   data: {
     showUploadTip: false,
-    msg: '12312',
+    info: [
+      { id: '1', title: '我与春风皆过客,你携秋水揽星河。' },
+      { id: '2', title: '愿有岁月可回首,且以深情共白头。' },
+      { id: '3', title: '三生有幸遇见你,纵使悲凉也是情。' },
+      { id: '4', title: '即许一人以偏爱,愿尽余生之慷慨。' },
+      { id: '5', title: '渐行渐远渐无书,水闊鱼沉何处问!' }
+    ],
     option: {
       seed: {
         x: 1080 / 2 - 20,
@@ -41,7 +47,7 @@ Page({
   onShow() {
     console.log('this', this)
     setTimeout(() => {
-      this.setData({msg: '213'})
+      this.setData({ msg: '213' })
     }, 1000)
   }
 })
