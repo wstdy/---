@@ -1,13 +1,18 @@
-.container {
+.home {
   width: 100%;
   height: 100vh;
-  position: relative;
 }
-.container video {
+
+.home .home-top {
   height: 200px;
   width: 100%;
+  position: relative;
 }
-.container .text {
+.home video {
+  width: 100%;
+  height: 100%;
+}
+.home .text {
   position: absolute;
   top: 0;
   left: 0;
@@ -20,8 +25,8 @@
   color: #9652ca;
   background: #e7ffc0;
 }
-.container .text-box {
-  animation: textAnt 10s;
+.home .text-box {
+  animation: textAnt 10s infinite;
 }
 @keyframes textAnt{
   0% {
