@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/home/index"
+    "pages/home/index",
+    "pages/index/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -11,20 +11,18 @@
     "navigationBarTextStyle": "black",
     "pageOrientation": "auto"
   },
-  "sitemapLocation": "sitemap.json",
-  "style": "v2",
   "tabBar": {
-    "custom": true,
+    "custom": false,
     "color": "#000000",
-    "selectedColor": "#000000",
-    "backgroundColor": "#000000",
+    "selectedColor": "blue",
+    "backgroundColor": "white",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/home/index",
         "text": "首页"
       },
       {
-        "pagePath": "pages/home/index",
+        "pagePath": "pages/index/index",
         "text": "接口"
       }
     ]
