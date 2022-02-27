@@ -1,7 +1,8 @@
 <view class="container">
-  <view id="code">
-    <view color="#FF0000">
-      <view wx:key="key" wx:for="{{info}}" class="say">{{item.title}}</view>
+  <video autoplay="true" object-fit="fill" src="cloud://wstdy-xhfs4.7773-wstdy-xhfs4-1301824460/视频/《漠河舞厅》).mp4"></video>
+  <view class="text">
+    <view class="text-box">
+      <view wx:key="key" wx:for="{{info}}" class="text-box-list">{{item.title}}</view>
     </view>
   </view>
 </view>

@@ -6,7 +6,7 @@ Page({
       { id: '2', title: '愿有岁月可回首,且以深情共白头。' },
       { id: '3', title: '三生有幸遇见你,纵使悲凉也是情。' },
       { id: '4', title: '即许一人以偏爱,愿尽余生之慷慨。' },
-      { id: '5', title: '渐行渐远渐无书,水闊鱼沉何处问!' }
+      { id: '5', title: '送给最喜欢的周佳佳' }
     ],
     option: {
       seed: {
@@ -44,18 +44,7 @@ Page({
       }
     }
   },
-  onShow() {
-    this.backmusic()
-  },
-  backmusic() {
-    let back = wx.getBackgroundAudioManager()
-    player()
-    function player() {
-      back.title = "好有意思";   // 必须要有一个title
-      back.src = "http://link.hhtjim.com/163/20953761.mp3";
-      back.onEnded(() => {
-        player()
-      })
-    }
-  },
+  // onShow() {
+    
+  // }
 })
