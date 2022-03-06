@@ -1,6 +1,5 @@
 <view class="home">
   <view class="home-top">
     <video autoplay="{{true}}" danmu-list="{{array}}" enable-danmu danmu-btn bindplay="start" object-fit="fill" src="cloud://wstdy-xhfs4.7773-wstdy-xhfs4-1301824460/视频/《漠河舞厅》).mp4"></video>
-    <view >{{date}}</view>
   </view>
 </view>

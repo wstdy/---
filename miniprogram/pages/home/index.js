@@ -1,4 +1,3 @@
-const dayjs = require("dayjs");
 Page({
   data: {
     showUploadTip: false,
@@ -10,10 +9,8 @@ Page({
       { id: '5', title: '送给最喜欢的周佳佳' }
     ],
     array: [],
-    date: dayjs().format('YYYY-MM-DD HH:mm:ss')
   },
   start() {
-    console.log(new Date())
     let array = []
     let num = 1
     for (let i = 1; i < 100; i++) {
@@ -27,8 +24,5 @@ Page({
     this.setData({ array: array })
   },
   onShow() {
-    setInterval(() => {
-      this.setData({date: dayjs().format('YYYY-MM-DD HH:mm:ss')})
-    }, 1000)
   }
 })
