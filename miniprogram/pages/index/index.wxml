@@ -1,3 +1,20 @@
-<view class="container">
-  测hi是
+<view class="my">
+  <view class="box-pro">
+    <view class="box">
+      <view class="{{item.class}}" wx:for="{{list}}" wx:key="{{item.class}}">
+        <image style="width:100%;height:100%;" src="cloud://wstdy-xhfs4.7773-wstdy-xhfs4-1301824460/images/user.png" alt="" />
+      </view>
+    </view>
+  </view>
+  <view class="text-box">
+    我们已相识
+    <text class="text-day">{{day}}</text>
+    天
+    <text class="text-hour">{{hour}}</text>
+    小时
+    <text class="text-minute">{{minute}}</text>
+    分钟
+    <text class="text-second">{{second}}</text>
+    秒
+  </view>
 </view>
